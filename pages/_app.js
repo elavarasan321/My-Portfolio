@@ -2,7 +2,7 @@ import '../styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import {ThemeProvider} from 'styled-components';
 import {useState} from 'react';
-import {lightTheme, darkTheme, GlobalStyles} from './Theme';
+import {lightTheme, darkTheme, GlobalStyles} from '../public/Theme';
 
 function MyApp({Component, pageProps}) {
   const [theme, setTheme] = useState('light');
