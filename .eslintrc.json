@@ -4,8 +4,7 @@
     "prettier",
     "eslint:recommended",
     "plugin:import/errors",
-    "next",
-    "prettier/next"
+    "next"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -18,13 +17,13 @@
   "plugins": ["react"],
   "rules": {
     "import/prefer-default-export": "off",
-    "unused-imports/no-unused-imports-jsx": "error",
+    "unused-imports/no-unused-imports-jsx": "off",
     "no-param-reassign": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
     "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
     "prettier/prettier": [
-      "error",
+      "off",
       {
         "semi": true
       }

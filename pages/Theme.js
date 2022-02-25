@@ -76,3 +76,5 @@ export const GlobalStyles = createGlobalStyle`
     transition: all 0.50s linear;
   }
 `;
+// eslint-disable-next-line import/no-anonymous-default-export
+export default {GlobalStyles, theme, darkTheme, lightTheme};
